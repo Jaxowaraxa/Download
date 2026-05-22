@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #bbbbbb;
+    text-decoration: none;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: ease-in 450ms;
+    display: inline-block;
+}
+
+nav a::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: rgb(255, 255, 255);
+    transition: 300ms;
+}
+
+nav a:hover
+    {
+        color: white;
+        transition: 200ms;
+    }
+
+nav a:hover:after {
+    width: 100%;
+    color: #FFF;
+}
+
+.mapa {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    width: 40%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-left: 4%;
+    
+}
+
+.informacje
+    {
+        padding: 20px;
+        background: #fff;
+        margin: 20px auto;
+        width: 10px;
+        height: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        float: left;
+        margin-left: 5%;
+        visibility: hidden;
+        font-size: 0px;
+    }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    clear: both;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+form input, form select, form textarea, form button {
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 350ms;
+    margin-bottom: 13.88%;
+}
+
+form button:hover {
+    background: #515050;
+}
+
+.klikanko
+    {
+        margin-left: 22%;
+    }
+
+#glowa {
+    margin-left: 31%;
+    margin-top: 9%;
+    width: 10%;
+    cursor: pointer;
+}
+
+#szyja
+    {
+        margin-left: 30%;
+        margin-bottom: auto;
+        width: 10%;
+        cursor: pointer;
+    }
+
+#rekal {
+    margin-left: 18.6%;
+    margin-top: 6%;
+    float: left;
+    cursor: pointer;
+}
+
+#rekap {
+    margin-top: 2%;
+    transform: scaleX(-1);
+    clear: both;
+    cursor: pointer;
+}
+
+#klatka {
+    float: left;
+    margin-top: 2%;
+    width: 20%;
+    cursor: pointer;
+}
+
+#nogal {
+    margin-left: 25.5%;
+    cursor: pointer;
+}
+
+#nogap {
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+#klatka2
+    {
+        width: 30%;
+        cursor: pointer;
+    }
+
+#brzuch
+    {
+        width: 26%;
+        margin-left: 2.2%;
+        cursor: pointer;
+    }
+
+#miednica
+    {
+        width: 24%;
+        margin-left: 3.6%;
+        cursor: pointer;
+    }
+#infoKursy
+    {
+            padding: 20px;
+            background: #fff;
+            margin: 20px auto;
+            width: 90%;
+            height: auto;
+            box-shadow: 0 2px 4px rgba(0, 0, 2, 1);
+            float: left;
+            margin-left: 5%;
+            visibility: visible;
+            font-size: 16px;
+            color: black;
+    }
+    

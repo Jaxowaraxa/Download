@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadaj pytanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Zadaj pytanie</h1>
+        <nav>
+            <a href="index.html">Strona Główna</a>
+            <a href="einstruktor.html">E-instruktor</a>
+            <a href="zapiszsie.html">Zapisz się</a>
+            <a href="pytania.html">Zadaj Pytanie</a>
+            <a href="dostepne.html">Dostępne Kursy</a>
+        </nav>
+    </header>
+    <main>
+        <form action="zadaj_pytanie.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pytanie">Twoje pytanie:</label>
+            <textarea id="pytanie" name="pytanie" required></textarea>
+
+            <button type="submit">Wyślij pytanie</button>
+        </form>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p>2024 Kursy Pierwszej Pomocy</p>
+    </footer>
+</body>
+</html>
+

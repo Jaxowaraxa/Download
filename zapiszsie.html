@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapisz się</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Zapisz się na kurs</h1>
+        <nav>
+            <a href="index.html">Strona Główna</a>
+            <a href="einstruktor.html">E-instruktor</a>
+            <a href="zapiszsie.html">Zapisz się</a>
+            <a href="pytania.html">Zadaj Pytanie</a>
+            <a href="dostepne.html">Dostępne Kursy</a>
+        </nav>
+    </header>
+    <main>
+        <form action="uczestnicy.php" method="post">
+            <label for="imie">Imię:</label>
+            <input type="text" id="imie" name="imie" placeholder="Imię uczestnika" required>
+
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" id="nazwisko" name="nazwisko" placeholder="Nazwisko uczestnika" required>
+
+            <label for="numer_tel">Numer telefonu:</label>
+            <input type="text" id="numer_tel" name="numer" placeholder="Numer telefonu uczestnika" required maxlength="9">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email uczestnika" required>
+
+            <label for="data_urodzenia">Data urodzenia:</label>
+            <input type="date" id="data_urodzenia" name="data-urodzenia" required>
+
+            <label for="miasto">Miasto:</label>
+            <select id="miasto" name="miasto" required>
+                <option value="bialystok">Białystok</option>
+                <option value="bielskob">Bielsko-Biała</option>
+                <option value="bydgoszcz">Bydgoszcz</option>
+                <option value="czestochowa">Częstochowa</option>
+                <option value="gdansk">Gdańsk</option>
+                <option value="gdynia">Gdynia</option>
+                <option value="gliwice">Gliwice</option>
+                <option value="katowice">Katowice</option>
+                <option value="kielce">Kielce</option>
+                <option value="koszalin">Koszalin</option>
+                <option value="krakow">Kraków</option>
+                <option value="lodz">Łódź</option>
+                <option value="lublin">Lublin</option>
+                <option value="olsztyn">Olsztyn</option>
+                <option value="poznan">Poznań</option>
+                <option value="radom">Radom</option>
+                <option value="rzeszow">Rzeszów</option>
+                <option value="rybnik">Rybnik</option>
+                <option value="szczecin">Szczecin</option>
+                <option value="torun">Toruń</option>
+                <option value="warszawa">Warszawa</option>
+                <option value="wroclaw">Wrocław</option>
+                <option value="zabrze">Zabrze</option>
+                <option value="zakopane">Zakopane</option>                
+            </select>
+
+            <label for="typ">Typ:</label>
+            <select id="typ" name="typ" required>
+                <option value="KPP - Certyfikacja">KPP - Certyfikacja</option>
+                <option value="KPP - Recertyfikacja">KPP - Recertyfikacja</option>
+                <option value="Pierwsza Pomoc">Pierwsza Pomoc</option>
+                <option value="Pierwsza Pomoc Dzieciom">Pierwsza Pomoc Dzieciom</option>
+                <option value="Pierwsza Pomoc W Miejscu Pracy">Pierwsza Pomoc W Miejscu Pracy</option>
+            </select>
+
+            <button type="submit">Zapisz się</button>
+        </form>
+    </main>
+    <footer>
+        <p>2024 Kursy Pierwszej Pomocy</p>
+    </footer>
+</body>
+</html>

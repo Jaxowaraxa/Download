@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-instruktor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>E-instruktor</h1>
+        <nav>
+            <a href="index.html">Strona Główna</a>
+            <a href="einstruktor.html">E-instruktor</a>
+            <a href="zapiszsie.html">Zapisz się</a>
+            <a href="pytania.html">Zadaj Pytanie</a>
+            <a href="dostepne.html">Dostępne Kursy</a>
+        </nav>
+    </header>
+    <main>
+        <section class="mapa">
+            <h2>Interaktywna mapa ciała</h2>
+            <p>Kliknij w część ciała, aby zobaczyć możliwe urazy.</p>
+            <div class="klikanko" id="cialo">
+                    <img src="klatka.png" id="klatka2" onclick="klatkaInfo()"><br>
+                    <img src="brzuch.png" id="brzuch" onclick="brzuchInfo()"><br>
+                    <img src="miednica.png" id="miednica" onclick="miednicaInfo()">
+                <script src="cialo.js"></script>
+            </div>
+        </section>
+        <section class="informacje" id="inf">
+
+        </section>
+    </main>
+    <footer>
+        <p>2024 Kursy Pierwszej Pomocy</p>
+    </footer>
+</body>
+</html>
